@@ -12,6 +12,7 @@ from django.core.paginator import EmptyPage
 from django.core.paginator import PageNotAnInteger
 from django.db.models import Count, Q, query
 from django.db.models.lookups import IContains
+
 from django.http import HttpResponseRedirect
 
 def LikeView(request, pk):
